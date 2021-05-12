@@ -243,10 +243,17 @@ section.how-to-buy {
   background: radial-gradient(50% 271.47% at 50% 50%, #131b29 0%, #0c0d0f 100%), #0d0e11;
   padding: 100px 0;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 section.how-to-buy h2,
 section.how-to-buy p {
   color: white;
+}
+section.how-to-buy img.how-to-buy{
+  margin:64px auto;
+  max-width: 960px;
 }
 section.how-to-buy p.lead {
   font-size: 1.6rem;
@@ -267,7 +274,7 @@ font-size: 18px;
 line-height: 24px;
 text-align: center;
 letter-spacing: 0.01em;
-
+margin-bottom: 120px;
 color: #FFFFFF;
 }
 section.how-to-buy .links-community img{
@@ -295,6 +302,6 @@ section.how-to-buy .links-community a{
   padding: 24px;
   background: #0D0F12;
 border-radius: 24px;
-
+margin: 0 24px;
 } 
 
