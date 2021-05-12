@@ -1,0 +1,300 @@
+/* Reset CSS */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html,
+body {
+  font-size: 10px;
+  color: #48525E;
+  font-family: "Epilogue", "Gilroy", "ITC Avant Garde Gothic Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Graphik", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 7.2rem;
+  line-height: 10.8rem;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 6rem;
+  text-align: center;
+  color: #48525e;
+}
+
+p.lead {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.global-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 80px 0;
+}
+.global-actions a.btn {
+  margin-right: 16px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.31);
+  box-sizing: border-box;
+  box-shadow: 0px 6px 16px rgba(250, 69, 58, 0.05);
+  border-radius: 12px;
+  padding: 12px 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.global-actions a.btn.btn-primary {
+  background: linear-gradient(180deg, #fa4f2a 0%, #fa2a1d 100%);
+  border: 1px solid #f91406;
+  box-sizing: border-box;
+  box-shadow: 0px 6px 16px rgba(250, 69, 58, 0.5);
+  border-radius: 12px;
+}
+
+#dogefather header {
+  background: #fec82f;
+  padding: 120px 20px;
+}
+#dogefather header nav{
+  display: flex;
+  align-items: center;
+}
+#dogefather header nav a{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+#dogefather header .stats {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+#dogefather header .stats .stat {
+  flex: 1;
+}
+#dogefather header .stats .label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.global-links-container {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 4px solid #dfdfdf;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: -200px;
+  margin-bottom: 48px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 3rem;
+  /* identical to box height */
+  color: #48525e;
+}
+.global-links-container ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+.global-links-container ul li a {
+  padding: 16px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.global-links-container ul li a:hover {
+  background: #f0f0f0;
+}
+.global-links-container ul li a img {
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+section.tokenomics {
+  padding: 120px 0;
+  background: #4cb3ff;
+  
+}
+section.tokenomics .content-container{
+  width: 100%;
+  display: flex;
+}
+section.tokenomics .content-container .count {
+  font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 59px;
+text-align: center;
+width: 100px;
+height: 64px;
+background: white;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #48525E;
+}
+section.tokenomics .content-container .count-brief {
+  display: flex;
+  margin-bottom: 24px;
+}
+section.tokenomics .content-container .brief {
+  font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 33px;
+max-width: 450px;
+margin-left: 24px;
+color: #48525E;
+}
+
+section.tokenomics .half{
+  padding: 48px;
+  flex: 1;
+}
+section.how-to-buy {
+  background: radial-gradient(50% 271.47% at 50% 50%, #131b29 0%, #0c0d0f 100%), #0d0e11;
+  padding: 100px 0;
+  color: #fff;
+}
+section.how-to-buy h2,
+section.how-to-buy p {
+  color: white;
+}
+section.how-to-buy p.lead {
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+section.how-to-buy .links-community {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 960px;
+  margin: 40px auto;
+  font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+}
+section.how-to-buy .links-community img{
+  width: 72px;
+  height: 72px;
+  margin-bottom: 24px;
+}
+section.how-to-buy .links-community .brief {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  margin-top: 12px;
+  color: #FFFFFF;
+ }
+section.how-to-buy .links-community a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 224px;
+  height: 224px;
+  padding: 24px;
+  background: #0D0F12;
+border-radius: 24px;
+
+} 
+
